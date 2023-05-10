@@ -11,25 +11,20 @@
 <body>
     <div class="container">
         <div class="top">
-            <button class="player-select">X</button>
-            <button class="player-select">O</button>
+            <button class="player-select x">X</button>
+            <button class="player-select o">O</button>
         </div>
         <div class="main">
-            <div class="gameboard">
-                <button class="btns btn1">X</button>
-                <button class="btns btn2"></button>
-                <button class="btns btn3"></button>
-                <button class="btns btn4"></button>
-                <button class="btns btn5">X</button>
-                <button class="btns btn6"></button>
-                <button class="btns btn7"></button>
-                <button class="btns btn8"></button>
-                <button class="btns btn9">X</button>
-            </div>
+            <div class="gameboard"></div>
         </div>
         <div class="bottom">
+            <input type="text" id="player1" placeholder="Player 1 Name">
+            <input type="text" id="player2" placeholder="Player 2 Name">
+            <button id="start">Start game</button>
             <Button id="restart">Restart</Button>
         </div>
+        <div id="message"></div>
+        <div id="result-display"></div>
     </div>
 </body>
 </html>
